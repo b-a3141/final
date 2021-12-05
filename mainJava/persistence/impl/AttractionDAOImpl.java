@@ -16,7 +16,7 @@ public class AttractionDAOImpl implements AttractionDAO {
 
 	public List<Attraction> findAll() {
 		try {
-			String sql = "SELECT * FROM ATTRACTIONS";
+			String sql = "SELECT * FROM ATTRACTIONS ORDER BY cost DESC, duration";
 			Connection conn = ConnectionProvider.getConnection();
 			PreparedStatement statement = conn.prepareStatement(sql);
 			ResultSet resultados = statement.executeQuery();

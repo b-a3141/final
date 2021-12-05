@@ -13,4 +13,6 @@ public class Crypt {
 	public static boolean match(String candidate, String hashed) {
 		return BCrypt.checkpw(candidate, hashed);
 	}
+	
+	
 }
