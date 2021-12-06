@@ -54,7 +54,17 @@
 				</a>
 			</div>
 		</c:if>
-		
+	
+	
+	<!-- Promociones -->	
+	
+ <c:forEach items="${promociones}" var="promocion">
+ 
+ 
+ </c:forEach>
+ 
+ 
+	<!-- Atracciones -->		
  <c:forEach items="${attractions}" var="attraction">
 
 
