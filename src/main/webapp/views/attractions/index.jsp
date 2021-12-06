@@ -60,6 +60,10 @@
 	
  <c:forEach items="${promociones}" var="promocion">
  
+	 
+	  <div class="card-body">
+	    <h5 class="card-title"><c:out value="${promocion.id}"></c:out></h5>
+	  
  
  </c:forEach>
  
